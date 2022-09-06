@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Ejercicio3-2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int retornarNumero();
+
+int main(void) {
+	setbuf(stdout, NULL);
+	printf("El numero ingresado es %d", retornarNumero());
+}
+
+int retornarNumero() {
+	int numero = 0;
+	printf("Ingrese un num flotante");
+	scanf("%d", &numero);
+
+
+	return numero;
+}

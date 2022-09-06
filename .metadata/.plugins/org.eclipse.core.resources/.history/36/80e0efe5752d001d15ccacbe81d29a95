@@ -1,0 +1,28 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 5 sep. 2022
+ *      Author: santi
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+float validarCelsius(){
+	float temp;
+	do{
+		printf("Ingrese una temperatura en celsius: (entre el punto de congelacion y de ebullicion)");
+		scanf("%f", &temp)
+	}while(temp < 0 || temp > 100);
+
+	return 0;
+}
+
+float validarFahrenheit(){
+	float temp;
+	do{
+			printf("Ingrese una temperatura en Fahrenheit: (entre el punto de congelacion y de ebullicion)");
+			scanf("%f", &temp)
+		}while(temp < 0 || temp > 100);
+
+		return 0;
+}

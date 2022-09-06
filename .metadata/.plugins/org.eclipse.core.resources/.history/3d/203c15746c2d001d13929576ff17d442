@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Ejercicio4-2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int sumar(int num1, int num2);
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int num1;
+	int num2;
+	int *resultadoPtr;
+
+	*resultadoPtr = sumar(1, 2);
+
+
+	printf("El resultado de la suma es: %d", resultadoPtr);
+
+	return EXIT_SUCCESS;
+}
+
+int sumar(int num1, int num2){
+	resultado = num1 + num2;
+	*resultado = resultado;
+
+	return 0;
+}

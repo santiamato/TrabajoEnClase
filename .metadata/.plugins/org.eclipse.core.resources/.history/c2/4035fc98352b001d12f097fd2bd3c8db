@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : Ejercicio3-5.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int Restar1(int, int);
+int Restar2(void);
+int Restar3(int, int);
+int Restar4(void);
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+	printf("Que funcion quiere usar para restar: \n"
+			"1-Restar1\n"
+			"2-Restar2\n"
+			"3-Restar3\n"
+			"4-Restar4\n");
+
+
+
+
+
+	return EXIT_SUCCESS;
+}
+
+

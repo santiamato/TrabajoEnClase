@@ -1,0 +1,14 @@
+/*
+ * conversion.h
+ *
+ *  Created on: 5 sep. 2022
+ *      Author: santi
+ */
+
+#ifndef CONVERSION_H_
+#define CONVERSION_H_
+
+float convertirCelsius(float temp, float *numConvertido);
+float convertirFahrenheit(float temp, float *numConvertido);
+
+#endif /* CONVERSION_H_ */
