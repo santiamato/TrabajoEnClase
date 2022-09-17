@@ -1,6 +1,15 @@
-00:21:47 **** Incremental Build of configuration Debug for project Ejercicio4-4 ****
+00:44:27 **** Incremental Build of configuration Debug for project Ejercicio7-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio4-4.o" "..\\src\\Ejercicio4-4.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
-gcc -o Ejercicio4-4.exe "src\\Ejercicio4-4.o" "src\\biblioteca.o" 
-Info: Nothing to build for Ejercicio4-4
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio7-3.o" "..\\src\\Ejercicio7-3.c" 
+..\src\Ejercicio7-3.c: In function 'esLetraConEspacio':
+..\src\Ejercicio7-3.c:59:6: warning: variable 'tieneEspacio' set but not used [-Wunused-but-set-variable]
+   59 |  int tieneEspacio = 0;
+      |      ^~~~~~~~~~~~
+..\src\Ejercicio7-3.c:57:6: warning: variable 'tieneLetra' set but not used [-Wunused-but-set-variable]
+   57 |  int tieneLetra = 0;
+      |      ^~~~~~~~~~
+..\src\Ejercicio7-3.c: In function 'esSoloLetra':
+..\src\Ejercicio7-3.c:83:6: warning: variable 'tieneLetra' set but not used [-Wunused-but-set-variable]
+   83 |  int tieneLetra = 0;
+      |      ^~~~~~~~~~
+gcc -o Ejercicio7-3.exe "src\\Ejercicio7-3.o" 
